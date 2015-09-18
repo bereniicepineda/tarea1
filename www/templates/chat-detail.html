@@ -1,14 +1,27 @@
-<!--
-  This template loads for the 'tab.friend-detail' state (app.js)
-  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-  The FriendsCtrl pulls data from the Friends service (service.js)
-  The Friends service returns an array of friend data
--->
-<ion-view view-title="{{chat.name}}">
+<ion-view view-title="Restaurante">
   <ion-content class="padding">
-    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{chat.lastText}}
-    </p>
+    <div class="list card">
+      <div class="item item-divider">Menu</div>
+      <div class="item item-body">
+        <div>
+       <p> ¡Bienvenidos! </p>
+       
+       <pre>
+           
+           Bebidas
+           
+           Jugo de naranja.......$15.00 c/u
+           Agua natural..........$10.00 c/u
+           Agua mineral..........$15.00 c/u
+           Refresco..............$15.00 c/u
+           Licuados..............$15.00 c/u
+           Jugo de toronja.......$15.00 c/u
+           Te helado.............$15.00 c/u
+          
+       </pre>
+        </div>
+      </div>
+    </div>
+  
   </ion-content>
 </ion-view>

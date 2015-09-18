@@ -1,16 +1,27 @@
-<ion-view view-title="Chats">
-  <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+<ion-view view-title="Restaurante">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Menu</div>
+      <div class="item item-body">
+        <div>
+       <p> ¡Bienvenidos! </p>
+       
+       <pre>
+           
+           Bebidas
+           
+           Jugo de naranja.......$15.00 c/u
+           Agua natural..........$10.00 c/u
+           Agua mineral..........$15.00 c/u
+           Refresco..............$15.00 c/u
+           Licuados..............$15.00 c/u
+           Jugo de toronja.......$15.00 c/u
+           Te helado.............$15.00 c/u
+          
+       </pre>
+        </div>
+      </div>
+    </div>
+  
   </ion-content>
 </ion-view>
